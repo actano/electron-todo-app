@@ -2,14 +2,25 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>Todo app</title>
+    <link rel="stylesheet" type="text/css" href="main-style.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <h1 class="main-title">Todos for you</h1>
     <!-- All of the Node.js APIs are available in this renderer process. -->
     We are using Node.js <script>document.write(process.versions.node)</script>,
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>.
+
+    <div class="row">
+      <div class="collumn-50">
+        <h2>todo list</h2>
+      </div>
+
+      <div class="collumn-50">
+        <h2>done list</h2>
+      </div>
+    </div>
 
     <script>
       // You can also require other files to run in this process
