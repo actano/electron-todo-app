@@ -1,8 +1,43 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
 .main-title {
     text-align: center
 }
 
+.subtitle {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
 .collumn-50 {
     width: 50%;
-    display: inline-block;
+}
+
+.task-list {
+    height: 100%;
+}
+
+.task-list.todo {
+    background-color: rgba(255,0, 0, 0.2);
+}
+
+.task-list.done {
+    background-color: rgba(0,255, 0, 0.2);
 }
